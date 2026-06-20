@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('shru.png');
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 0px 10px;
+    
+}
+.logo{
+    font-size: 30px;
+    color:orange;
+}
+.nav{ 
+    position: relative;
+    right: 30px;
+}
+a{
+    padding: 50px 30px;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.search{ 
+    font-size: 20px;
+}
+.search i{
+    color: orange;
+    padding: 5px 20px;
+}
+/*********heading*********/
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+.right{
+    width: 400px;
+    height: 400px;
+    background-image: url('food.jpg');
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+.right::before{
+    width: 380px;
+    height:380px;
+    border: 3px solid black;
+    content:'';
+    position: relative;
+    border-radius: 450px;
+    padding: 10px;
+    
+}
+/*********left*********/
+.left p:nth-child(1){
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.left h1{
+    color: white;
+    font-size: 90px;
+    
+}
+.left p:nth-child(3){ 
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+.left button{ 
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+/*********socialMedia*********/
+.socialMedia{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+}
+.socialMedia i:hover{
+    color: orange;
+}
+/*********bottom*********/
+#food1,#food2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+#food1{
+    background-image: url('food1.jpg');
+    
+}
+#food2{
+    background-image: url('food2.jpg');
+}
+.Menu{
+    display: flex;
+    margin: 0px 100px;
+
+}
